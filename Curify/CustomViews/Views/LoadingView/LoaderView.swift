@@ -2,7 +2,6 @@
 //  LoaderView.swift
 //  Curify
 //
-//  Created by Uyg'un Tursunov on 09/01/24.
 //
 
 import UIKit
@@ -16,11 +15,6 @@ class LoaderView: UIView {
     }()
     
     let spinningView = SpinnerView()
-    
-    lazy var titleLabel: UILabel = {
-        let label = UILabel()
-        return label
-    }()
     
     override init(frame: CGRect) {
         super.init(frame: frame)

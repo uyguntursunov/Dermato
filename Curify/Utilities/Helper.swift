@@ -2,7 +2,6 @@
 //  Helper.swift
 //  Curify
 //
-//  Created by Uyg'un Tursunov on 09/01/24.
 //
 
 import UIKit
@@ -18,5 +17,14 @@ class Helper {
             return 0.0
         }
         return 0.0
+    }
+    
+    static func getTopPadding() -> CGFloat {
+        if let window = UIApplication.shared.windows.first {
+            let topSafeAreaHeight = window.safeAreaInsets.top
+            return topSafeAreaHeight
+        } else {
+            return 0.0
+        }
     }
 }

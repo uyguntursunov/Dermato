@@ -2,7 +2,7 @@
 //  CustomBottomView.swift
 //  Dermato AI
 //
-//  Created by Uyg'un Tursunov on 18/08/24.
+//  
 //
 
 import UIKit
@@ -28,7 +28,7 @@ class CustomBottomStartView: UIView {
     }
     
     convenience init(title: String) {
-        
+        self.init(frame: .zero)
         startButton.setTitle(title, for: .normal)
     }
     
@@ -42,9 +42,10 @@ class CustomBottomStartView: UIView {
         
         addSubview(startButton)
         startButton.snp.makeConstraints { make in
+            make.top.equalToSuperview().offset(5)
             make.leading.equalToSuperview().offset(20)
             make.trailing.equalToSuperview().offset(-20)
-            make.bottom.equalToSuperview().offset(-50)
+            make.bottom.equalToSuperview().offset(-40)
             make.height.equalTo(50)
         }
     }

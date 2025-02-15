@@ -20,7 +20,6 @@ class DetailsViewController: BaseViewController {
         let segmentedControl = UISegmentedControl(items: ["Recommendations", "Personal program"])
         segmentedControl.selectedSegmentIndex = 0
         segmentedControl.selectedSegmentTintColor = Colors.label
-        segmentedControl.backgroundColor = Colors.background
         let attributes: [NSAttributedString.Key : Any] = [
             .foregroundColor: UIColor.white,
             .font: UIFont.systemFont(ofSize: 15, weight: .semibold)

@@ -2,7 +2,7 @@
 //  LanguageManager.swift
 //  Curify
 //
-//  Created by Uyg'un Tursunov on 23/02/24.
+//  
 //
 
 import UIKit
@@ -32,7 +32,6 @@ class LanguageManager {
         return UD.language.isEmpty
     }
 }
-
 
 enum AppLanguage: String {
     case English = "en"

@@ -2,7 +2,15 @@
 //  FactModel.swift
 //  Dermato AI
 //
-//  Created by Uyg'un Tursunov on 18/08/24.
+//  
 //
 
 import Foundation
+
+struct FactModel: Codable {
+    let content: String?
+    let id: Int?
+    let image: String?
+    let number_of_question: Int?
+    let title: String?
+}

@@ -2,6 +2,81 @@
   Localizable.strings
   Curify
 
-  Created by Uyg'un Tursunov on 22/02/24.
+  
   
 */
+
+//HomePage
+
+"home" = "Bosh sahifa";
+"news" = "Yangiliklar";
+"Products" = "Mahsulotlar";
+
+// ChatPage
+
+"chat" = "Suhbat";
+"chatTutorial1" = "Turli sog'liq mavzulari haqida so'rang";
+"chatTutorial2" = "Kerakli tibbiy ma'lumotlarni oling";
+"chatTutorial3" = "Tezkor AI tibbiy tashxisi";
+"chatTutorial4" = "Muayyan dorilar uchun ko'rsatmalar";
+"switchToConversation" = "Suhbatga o'tish";
+"chatWithAI" = "AI bilan suhbat";
+"noMessages" = "Hozircha hech qanday xabar yo'q";
+"message" = "Xabar";
+
+// ScannerPage
+
+"scanner" = "Skaner";
+"tutorials" = "Ko'rsatmalar";
+"step" = "Qadam";
+"scanTutorial1" = "Teringiz toza va chalg'itadigan narsalardan xoli ekanligiga ishonch hosil qiling.";
+"scanTutorial2" = "Teri kasalligi telefoningiz kamerasi ramkasiga to'g'ri joylashishi lozim.";
+"scanTutorial3" = "Suratga oling va tizim tasvirni qayta ishlashni kuting. Ma'lumotni tekshiring";
+"imageSelection" = "Rasm tanlash";
+"chooseImageSource" = "Rasmni qayerdan tanlamoqchisiz?";
+"camera" = "Kamera";
+"photoAlbum" = "Fotoalbom";
+"cancel" = "Bekor qilish";
+"additionalNotes" = "Qo'shimcha";
+"enterAdditionalNotes" = "Qo'shimcha tegishli eslatmalarni kiriting";
+"success" = "Muvaffaqiyatli";
+
+// ProfilePage
+
+"profile" = "Profil";
+"personalInfo" = "Shaxsiy malumotlar";
+"history" = "Tarix";
+"language" = "Tilni o'zgartirish";
+"rateApp" = "Ilovani baholash";
+"termsOfUse" = "Foydalanish shartlari";
+"infoAboutApp" = "Ilova haqida malumot";
+"signOut" = "Tizimdan chiqish";
+"signOutAlert" = "Hisobdan chiqishga ishonchingiz komilmi?";
+
+// PersonalInformationPage
+
+"notEntered" = "Kiritilmagan";
+"name" = "Ism";
+"email" = "Pochta";
+"age" = "Yosh";
+"dateOfBirth" = "Tug'ilgan sana";
+"gender" = "Jins";
+"male" = "Erkak";
+"female" = "Ayol";
+"deleteAccount" = "Akkountni o'chirish";
+"deleteAccountConfirmation" = "Hisobingizni o'chirib tashlashingizga ishonchingiz komilmi?";
+"delete" = "O'chirish";
+"error" = "Xato";
+
+// HistoryPage
+
+"noScans" = "Hozircha hech qanday rasm yo'q";
+
+// LanguagePage
+
+"selectLanguage" = "Tilni tanlang";
+"english" = "Inglizcha";
+"uzbek" = "O'zbekcha";
+
+
+

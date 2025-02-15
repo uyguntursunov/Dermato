@@ -2,11 +2,24 @@
 //  ImageView.swift
 //  Curify
 //
-//  Created by Uyg'un Tursunov on 03/01/24.
 //
 
 import UIKit
 
-class ImageView: UIImageView {
+class MainImageView: ActivityImageView {
     
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        configure()
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    private func configure() {
+        backgroundColor = .clear
+        contentMode = .scaleAspectFit
+        clipsToBounds = true
+    }
 }

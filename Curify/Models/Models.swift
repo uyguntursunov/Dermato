@@ -2,7 +2,24 @@
 //  Models.swift
 //  Curify
 //
-//  Created by Uyg'un Tursunov on 24/02/24.
+//  
 //
 
-import Foundation
+import UIKit
+
+struct Instruction {
+    let title: String
+    let image: UIImage
+}
+
+struct Language {
+    let image: UIImage
+    let name: String
+    let language: AppLanguage
+}
+
+struct Scan {
+    let title: String
+    let image: Data
+    let date: String
+}

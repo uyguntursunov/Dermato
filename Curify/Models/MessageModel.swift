@@ -2,7 +2,28 @@
 //  MessageModel.swift
 //  Curify
 //
-//  Created by Uyg'un Tursunov on 16/01/24.
 //
 
-import Foundation
+import UIKit
+
+struct MessageModel: Codable {
+    let id: Int
+    let user_id: String?
+    let is_AI: Bool
+    let message: String?
+    let sent_at: String?
+}
+
+struct ResponseModel: Codable {
+    let response: String?
+}
+
+struct Message {
+    let text: String?
+    let type: MessageType
+}
+
+enum MessageType {
+    case sended
+    case recieved
+}

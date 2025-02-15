@@ -2,28 +2,29 @@
 //  WebViewController.swift
 //  Curify
 //
-//  Created by Uyg'un Tursunov on 22/02/24.
+//  
 //
 
 import UIKit
+import WebKit
 
-class WebViewController: UIViewController {
+class WebViewController: UIViewController, WKNavigationDelegate {
 
+    var urlString: String?
+    
+    private lazy var webView: WKWebView = {
+        let view = WKWebView()
+        view.navigationDelegate = self
+        return view
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        view = webView
+        if let urlString = urlString {
+            guard let url = URL(string: urlString) else { return }
+            webView.load(URLRequest(url: url))
+        }
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

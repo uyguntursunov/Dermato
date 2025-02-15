@@ -2,7 +2,24 @@
 //  BorderView.swift
 //  Curify
 //
-//  Created by Uyg'un Tursunov on 07/01/24.
 //
 
-import Foundation
+import UIKit
+
+class BorderView: UIView {
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        configure()
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    private func configure() {
+        backgroundColor = .clear
+        layer.cornerRadius = 12
+        layer.borderColor = Colors.label.cgColor
+        layer.borderWidth = 1
+    }
+}

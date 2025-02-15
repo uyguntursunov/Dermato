@@ -2,7 +2,6 @@
 //  SubView.swift
 //  Curify
 //
-//  Created by Uyg'un Tursunov on 03/01/24.
 //
 
 import UIKit
@@ -19,12 +18,12 @@ class ContainerView: UIView {
     }
     
     private func configure() {
+        backgroundColor = .systemBackground
         clipsToBounds = false
         layer.cornerRadius = 20
         layer.shadowColor = UIColor(red: 0.071, green: 0.071, blue: 0.071, alpha: 0.06).cgColor
         layer.shadowRadius = 16
         layer.shadowOpacity = 1
-        backgroundColor = Colors.background
         layer.shadowOffset = CGSize(width: 4, height: 4)
     }
 }

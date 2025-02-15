@@ -2,19 +2,22 @@
 //  SectionHeaderTitleView.swift
 //  Curify
 //
-//  Created by Uyg'un Tursunov on 28/07/24.
+//  
 //
 
 import UIKit
 
 class SectionHeaderTitleView: UIView {
     
-    lazy var titleLabel: Label = {
-        let label = Label(font: .systemFont(ofSize: 17, weight: .medium))
-        return label
-    }()
+    lazy var subView = SubView(frame: .zero)
+    lazy var titleLabel = Label(font: .systemFont(ofSize: 20, weight: .semibold))
     
-    lazy var arrowButton: 
+    lazy var chevronImageView: ImageView = {
+        let imageView = ImageView(frame: .zero)
+        imageView.tintColor = .label
+        imageView.image = SFSymbols.forward
+        return imageView
+    }()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -27,8 +30,23 @@ class SectionHeaderTitleView: UIView {
     }
     
     private func configure() {
-        addSubview(titleLabel)
-        titleLabel.frame = CGRect(x: 5, y: 5, width: frame.width - 10, height: frame.height - 10)
+        addSubview(subView)
+        subView.snp.makeConstraints { make in
+            make.edges.equalToSuperview()
+        }
+        
+        subView.addSubview(titleLabel)
+        titleLabel.snp.makeConstraints { make in
+            make.centerY.equalToSuperview()
+            make.leading.equalToSuperview().offset(20)
+        }
+        
+        subView.addSubview(chevronImageView)
+        chevronImageView.snp.makeConstraints { make in
+            make.centerY.equalToSuperview()
+            make.trailing.equalToSuperview().offset(-10)
+            make.height.width.equalTo(25)
+        }
     }
     
     func setData(title: String) {

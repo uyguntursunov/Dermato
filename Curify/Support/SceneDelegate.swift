@@ -2,7 +2,6 @@
 //  SceneDelegate.swift
 //  Curify
 //
-//  Created by Uyg'un Tursunov on 03/01/24.
 //
 
 import UIKit
@@ -10,13 +9,25 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
+    static var shared: SceneDelegate?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        SceneDelegate.shared = self
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-        window?.rootViewController = MainTabBarController()
+        
+//        let vc = MainTabBarController()
+//        window?.rootViewController = vc
+        
+        if let token = UD.token, token.replacingOccurrences(of: " ", with: "") != "" {
+            let vc = MainTabBarController()
+            window?.rootViewController = vc
+        } else {
+            let vc = GuestViewController()
+            window?.rootViewController = vc
+        }
+        
         window?.makeKeyAndVisible()
     }
 

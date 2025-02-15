@@ -2,7 +2,24 @@
 //  PageControl.swift
 //  Curify
 //
-//  Created by Uyg'un Tursunov on 24/01/24.
 //
 
-import Foundation
+import UIKit
+
+class PageControl: UIPageControl {
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        configure()
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    func configure() {
+        currentPage = 0
+//        pageIndicatorTintColor = .secondaryLabel
+//        currentPageIndicatorTintColor = .systemBackground
+        hidesForSinglePage = true
+    }
+}

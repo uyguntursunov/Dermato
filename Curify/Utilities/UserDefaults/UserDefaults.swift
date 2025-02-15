@@ -2,7 +2,6 @@
 //  UserDefaults.swift
 //  Curify
 //
-//  Created by Uyg'un Tursunov on 07/01/24.
 //
 
 import UIKit
@@ -10,6 +9,17 @@ import UIKit
 let UD = UserDefaults(suiteName: "Curify")!
 
 extension UserDefaults {
+    
+    public var language: String {
+        get { return unarchiveObject(key: "appLanguage").notNullString }
+        set { archivedData(key: "appLanguage", object: newValue )    }
+    }
+
+//    var mode: String? {
+//        get { return self.string(forKey: "appMode") }
+//        set { self.set(newValue, forKey: "appMode") }
+//    }
+    
     func unarchiveObject(key: String) -> Any? {
         if let data = value(forKey: key) as? Data {
                 do {
@@ -34,6 +44,16 @@ extension UserDefaults {
     var token: String? {
         get { return self.string(forKey: "token") }
         set { self.set(newValue, forKey: "token") }
+    }
+    
+//    var username: String? {
+//        get { return self.string(forKey: "username") }
+//        set { self.set(newValue, forKey: "username") }
+//    }
+    
+    var email: String? {
+        get { return self.string(forKey: "email") }
+        set { self.set(newValue, forKey: "email") }
     }
     
     var username: String? {

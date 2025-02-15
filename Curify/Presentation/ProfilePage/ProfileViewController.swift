@@ -103,8 +103,7 @@ extension ProfileViewController: UITableViewDelegate, UITableViewDataSource {
                 UIApplication.shared.open(url, options: [:], completionHandler: nil)
             }
         case 4:
-            vc = TestViewController()
-//            vc = InfoViewController()
+            vc = InfoViewController()
         case 5:
             let alertController = UIAlertController(title: "signOut".translate(), message: "signOutAlert".translate(), preferredStyle: .alert)
             let logoutAction = UIAlertAction(title: "signOut".translate(), style: .destructive) { (action) in
