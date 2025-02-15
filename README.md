@@ -22,23 +22,23 @@ Currently the app works in 2 languages: Uzbek and English(Russin is in the plans
 
 
 
-![alt text](https://github.com/uyguntursunov/Dermato/blob/assets/IMG_0190.PNG) 
+![alt text](https://github.com/uyguntursunov/Dermato/blob/assets/Home.PNG) 
 
 
 
-![alt text](https://github.com/uyguntursunov/Dermato/blob/assets/IMG_0191.PNG)
+![alt text](https://github.com/uyguntursunov/Dermato/blob/assets/SkinScanner.PNG)
 
 
 
-![alt text](https://github.com/uyguntursunov/Dermato/blob/assets/IMG_0192.PNG)
+![alt text](https://github.com/uyguntursunov/Dermato/blob/assets/ChatMain.PNG)
 
 
 
-![alt text](https://github.com/uyguntursunov/Dermato/blob/assets/IMG000%20(2).jpg)
+![alt text](https://github.com/uyguntursunov/Dermato/blob/assets/Chat.jpg)
 
 
 
-![alt text](https://github.com/uyguntursunov/Dermato/blob/assets/IMG_0193.PNG)
+![alt text](https://github.com/uyguntursunov/Dermato/blob/assets/Profile.PNG)
 
 
 
