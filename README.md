@@ -18,7 +18,29 @@ Chat with AI: Users can ask questions regarding dermatology and get fast respons
 
 News: Users can check daily local news in the field of medicine. 
 
-Currently the app works in 2 languages: Uzbek and English(Russin is in the plans as well). 
+Currently the app works in 2 languages: Uzbek and English(Russin is in the plans as well).
+
+
+
+![alt text](https://github.com/uyguntursunov/Dermato/blob/assets/IMG_0190.PNG) 
+
+
+
+![alt text](https://github.com/uyguntursunov/Dermato/blob/assets/IMG_0191.PNG)
+
+
+
+![alt text](https://github.com/uyguntursunov/Dermato/blob/assets/IMG_0192.PNG)
+
+
+
+![alt text](https://github.com/uyguntursunov/Dermato/blob/assets/IMG000%20(2).jpg)
+
+
+
+![alt text](https://github.com/uyguntursunov/Dermato/blob/assets/IMG_0193.PNG)
+
+
 
 
 
