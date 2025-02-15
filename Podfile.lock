@@ -1,0 +1,47 @@
+PODS:
+  - Alamofire (5.8.1)
+  - Kingfisher (7.10.1)
+  - Localize-Swift (3.2.0):
+    - Localize-Swift/LocalizeSwiftCore (= 3.2.0)
+    - Localize-Swift/UIKit (= 3.2.0)
+  - Localize-Swift/LocalizeSwiftCore (3.2.0)
+  - Localize-Swift/UIKit (3.2.0):
+    - Localize-Swift/LocalizeSwiftCore
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - PanModal (1.2.7)
+  - SnapKit (5.6.0)
+  - SwiftyStarRatingView (1.0.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher
+  - Localize-Swift (~> 3.2)
+  - NVActivityIndicatorView
+  - PanModal
+  - SnapKit
+  - SwiftyStarRatingView
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - Localize-Swift
+    - NVActivityIndicatorView
+    - PanModal
+    - SnapKit
+    - SwiftyStarRatingView
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  Kingfisher: bc5abe80a8e0144537ef1dd5a0b2621b04f7f439
+  Localize-Swift: 6f4475136bdb0d7b2882ea3d4ea919d70142b232
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  PanModal: 3e16ead1a907fb06f4df3f13492fd00149fa4974
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwiftyStarRatingView: a2b0057700e0adeb8e7442c55d99cb53b531d2f4
+
+PODFILE CHECKSUM: c725f1a63a9e4c8360a349a0edec14054d6430b5
+
+COCOAPODS: 1.15.2

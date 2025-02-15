@@ -1,0 +1,6 @@
+module Pods_Curify {
+  umbrella header "Pods-Curify-umbrella.h"
+
+  export *
+  module * { export * }
+}
