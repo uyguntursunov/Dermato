@@ -1,1 +1,0 @@
-../../../Target Support Files/SwiftyStarRatingView/SwiftyStarRatingView-umbrella.h

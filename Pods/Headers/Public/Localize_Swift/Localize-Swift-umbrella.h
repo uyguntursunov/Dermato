@@ -1,1 +1,0 @@
-../../../Target Support Files/Localize-Swift/Localize-Swift-umbrella.h
